@@ -1,0 +1,23 @@
+import random
+import sys
+print('██    ██ ███████ ██████  ███████')
+print('██    ██ ██      ██   ██ ██     ')
+print('██    ██ ███████ ██████  ███████')
+print('██    ██      ██ ██           ██')
+print(' ██████  ███████ ██      ███████')
+print("")
+print('██████  ██    ██ ██      ██      ███████ ████████ ██ ███    ██')
+print('██   ██ ██    ██ ██      ██      ██         ██    ██ ████   ██')
+print('██████  ██    ██ ██      ██      █████      ██    ██ ██ ██  ██')
+print('██   ██ ██    ██ ██      ██      ██         ██    ██ ██  ██ ██')
+print('██████   ██████  ███████ ███████ ███████    ██    ██ ██   ████')
+print("")
+print('███████ ██    ██ ███████ ████████ ███████ ███    ███')
+print('██       ██  ██  ██         ██    ██      ████  ████')
+print('███████   ████   ███████    ██    █████   ██ ████ ██')
+print('     ██    ██         ██    ██    ██      ██  ██  ██')
+print('███████    ██    ███████    ██    ███████ ██      ██')
+print('ENTER YOUR PASSWORD:')
+codebook = input()
+flag = codebook[4] + codebook[16] + codebook[13] + codebook[3] + codebook[4] + codebook[13] + codebook[10] + codebook[26] + codebook[0] + codebook[21] + codebook[21] + codebook[8] + codebook[25] + codebook[6] + codebook[14] + codebook[2] + codebook[4] + codebook[27]
+print(flag)
